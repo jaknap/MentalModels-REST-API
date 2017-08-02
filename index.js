@@ -20,7 +20,7 @@ var System = mongoose.model('system', taskSchema);
 var Mes = mongoose.model('mestrategy', taskSchema);
 
 var server = new Hapi.Server();
-server.connection({ port: 8080 });
+server.connection({  port: process.env.PORT || 8080  });
 
 server.route([
 
