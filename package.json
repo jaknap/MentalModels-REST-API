@@ -1,0 +1,14 @@
+{
+  "name": "mm",
+  "version": "1.0.0",
+  "author": "Pankaj Uchil",
+  "dependencies": {
+    "hapi": "^11.0.0",
+    "mongoose":"^4.7",
+    "q":"^1.4.1",
+    "crypto":"^0.0.3"
+  },
+  "engines": {
+    "node": "^4.2.1"
+  }, 
+}
