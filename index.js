@@ -10,7 +10,6 @@ var taskSchema = mongoose.Schema({
 });
 
 //Singular form of collection name
-var Task = mongoose.model('hn', taskSchema);
 var Military = mongoose.model('military', taskSchema);
 var Numeracy = mongoose.model('numeracy', taskSchema);
 var PhysicalWorld = mongoose.model('physicalworld', taskSchema);
