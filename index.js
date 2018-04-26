@@ -1,7 +1,7 @@
 var Hapi = require('hapi');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://jaknapn:2tunacan@ds157631.mlab.com:57631/mentalapi',{useMongoClient: true});
+mongoose.connect('mongodb://xxxxx:xxxxx@ds157631.mlab.com:57631/mentalapi',{useMongoClient: true});
 var db = mongoose.connection;
 
 var taskSchema = mongoose.Schema({
