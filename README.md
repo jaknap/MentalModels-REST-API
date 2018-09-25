@@ -1,4 +1,4 @@
-# MentalModels-REST-API
+# Mental_Models_REST_API
 This is a REST API which gives you details about the Mental Models listed on the Farnum Street Website
 
 This API has data collected by scraping the Farnum Street Website.
